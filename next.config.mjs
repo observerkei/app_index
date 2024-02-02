@@ -6,7 +6,6 @@ const nextConfig = {
 	experimental: {
 		mdxRs: true,
 	},
-    output: "export",
 };
 
 export default withContentlayer(nextConfig);
