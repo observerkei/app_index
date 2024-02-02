@@ -1,9 +1,7 @@
 "use client";
 
-export const BLOG_HOSTNAME = 'blog';
-
 export default function Example() {
-	var refreshUrl = "https://blog.observerkei.top";
+	var refreshUrl = `https://${process.env.BLOG_HOSTNAME}.observerkei.top`;
 
 	return (
 		<meta http-equiv="Refresh" content={"0; URL=" + refreshUrl} />
