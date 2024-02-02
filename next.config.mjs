@@ -7,10 +7,6 @@ const nextConfig = {
 		mdxRs: true,
 	},
 	output: "export",
-	env: {
-		BLOG_HOSTNAME: process.env.BLOG_HOSTNAME,
-		CHAT_HOSTNAME: process.env.CHAT_HOSTNAME,
-	},
 };
 
 export default withContentlayer(nextConfig);
