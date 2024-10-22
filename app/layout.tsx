@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "observerkei.top",
     template: "%s | observerkei.top",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "A developer, making the world a better place in his own way.",
   openGraph: {
     title: "observerkei.top",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "A developer, making the world a better place in his own way.",
     url: "https://observerkei.top",
     siteName: "observerkei.top",
     images: [
